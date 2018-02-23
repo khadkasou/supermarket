@@ -1,0 +1,15 @@
+G:\supermarket\index\index\bin\Debug\index.exe.config
+G:\supermarket\index\index\bin\Debug\index.exe
+G:\supermarket\index\index\bin\Debug\index.pdb
+G:\supermarket\index\index\bin\Debug\MySql.Data.dll
+G:\supermarket\index\index\bin\Debug\MySql.Data.xml
+G:\supermarket\index\index\obj\Debug\index.csprojResolveAssemblyReference.cache
+G:\supermarket\index\index\obj\Debug\index.Form1.resources
+G:\supermarket\index\index\obj\Debug\index.Properties.Resources.resources
+G:\supermarket\index\index\obj\Debug\index.csproj.GenerateResource.Cache
+G:\supermarket\index\index\obj\Debug\index.csproj.CoreCompileInputs.cache
+G:\supermarket\index\index\obj\Debug\index.exe
+G:\supermarket\index\index\obj\Debug\index.pdb
+G:\supermarket\index\index\obj\Debug\index.Form2.resources
+G:\supermarket\index\index\obj\Debug\index.Main.resources
+G:\supermarket\index\index\obj\Debug\index.Properties.Main.resources
