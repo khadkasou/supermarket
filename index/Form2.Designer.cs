@@ -42,6 +42,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(292, 67);
+            this.textBox1.MaxLength = 50;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(177, 20);
             this.textBox1.TabIndex = 0;
@@ -62,6 +63,7 @@
             this.textBox2.Location = new System.Drawing.Point(292, 116);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(177, 19);
             this.textBox2.TabIndex = 4;
             // 
