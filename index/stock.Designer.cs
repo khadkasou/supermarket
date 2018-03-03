@@ -41,11 +41,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
             this.btnInsert = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,6 +160,17 @@
             this.panel1.TabIndex = 9;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(187, 28);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(90, 25);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "STOCK";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
             // btnInsert
             // 
             this.btnInsert.Location = new System.Drawing.Point(312, 129);
@@ -195,16 +206,6 @@
             this.btnClose.TabIndex = 13;
             this.btnClose.Text = "close";
             this.btnClose.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(187, 28);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 25);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Stock";
             // 
             // stock
             // 

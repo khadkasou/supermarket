@@ -21,5 +21,10 @@ namespace index
         {
 
         }
+
+        private void txtStockId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -145,6 +145,7 @@
             this.txtStockId.Name = "txtStockId";
             this.txtStockId.Size = new System.Drawing.Size(100, 20);
             this.txtStockId.TabIndex = 31;
+            this.txtStockId.TextChanged += new System.EventHandler(this.txtStockId_TextChanged);
             // 
             // label5
             // 

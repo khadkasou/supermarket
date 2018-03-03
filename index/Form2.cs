@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,10 +18,7 @@ namespace index
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        static string connStr = "server=localhost; database=super_market; userId=root";
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -29,9 +27,27 @@ namespace index
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Main so = new Main();
-            so.Show();
+            using (MySqlConnection conn = new MySqlConnection(connStr))
+            {
+                using (MySqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = "SELECT * FROM userlogin WHERE username = '" + userTextBox.Text + "' AND upassword = '" + passwordTextBox.Text + "'";
+                    cmd.CommandType = CommandType.Text;
+
+                    conn.Open();
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            this.Hide();
+                            Main so = new Main();
+                            so.Show();
+                        }
+                        else { MessageBox.Show("Incorrect username or password"); }
+                    }
+                }
+            }
 
         }
     }

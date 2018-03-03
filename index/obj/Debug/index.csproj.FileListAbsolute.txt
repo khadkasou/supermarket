@@ -13,3 +13,7 @@ G:\supermarket\index\index\obj\Debug\index.pdb
 G:\supermarket\index\index\obj\Debug\index.Form2.resources
 G:\supermarket\index\index\obj\Debug\index.Main.resources
 G:\supermarket\index\index\obj\Debug\index.Properties.Main.resources
+G:\supermarket\index\index\obj\Debug\index.product.resources
+G:\supermarket\index\index\obj\Debug\index.purchase.resources
+G:\supermarket\index\index\obj\Debug\index.sale.resources
+G:\supermarket\index\index\obj\Debug\index.stock.resources

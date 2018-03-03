@@ -25,11 +25,16 @@ namespace index
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-            DatabaseConnection conn = new DatabaseConnection;
+            DatabaseConnection conn = new DatabaseConnection();
 
         }
 
         private void stock_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }
